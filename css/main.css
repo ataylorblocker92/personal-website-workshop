@@ -3,13 +3,18 @@
 }
 
 .jumbotron {
-    height: 65vh;
-    background-image: url('../assets/background.jpeg')
+    height: 75vh;
+    background-image: url(../assets/f16Falcon.jpg);
 }
 
 .jumbotron h1,
 .jumbotron h2 {
-    color: #fff;
+    color: red;
+    text-align: center;
+}
+
+.upper-bar h1 {
+    text-align: center;
 }
 
 .content-section-b {
@@ -21,4 +26,10 @@ footer {
     border: 1px solid #e7e7e7;
     border-radius: 4px;
     padding: 15px;
+}
+
+.row h1,
+.col-sm-6,
+.section-heading h1 {
+    color: red;
 }
